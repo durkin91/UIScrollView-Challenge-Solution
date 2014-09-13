@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NDViewController : UIViewController
+@interface NDViewController : UIViewController <UIScrollViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) UIImageView *globalImageView;
